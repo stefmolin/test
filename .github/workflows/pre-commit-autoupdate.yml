@@ -1,7 +1,6 @@
 name: Pre-commit update
 
 on:
-  pull_request:
   schedule:
     - cron: "25 20 * * 2"
 
