@@ -1,6 +1,5 @@
 ci:
     autofix_prs: false
-    autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
     autoupdate_schedule: weekly
 
 repos:
