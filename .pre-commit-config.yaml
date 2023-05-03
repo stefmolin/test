@@ -51,6 +51,12 @@ repos:
         additional_dependencies:
           - black
 
+  - repo: https://github.com/stefmolin/numpydoc
+    rev: 6a1a606
+    hooks:
+      - id: numpydoc-validation
+        exclude: (tests/|docs/).*
+ 
   - repo: https://github.com/econchick/interrogate
     rev: 1.5.0
     hooks:
